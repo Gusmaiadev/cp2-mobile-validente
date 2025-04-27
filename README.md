@@ -1,2 +1,63 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/COXuTqW4)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19328281&assignment_repo_type=AssignmentRepo)
+# 🎬 MovieDB App - React Native
+
+[![React Native](https://img.shields.io/badge/React%20Native-0.72-blue)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-49.0-orange)](https://expo.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
+
+Aplicativo de catálogo de filmes integrado à API do TMDB. Desenvolvido com React Native, TypeScript e Expo.
+
+![Movie List Preview](screenshots/list.png) ![Details Preview](screenshots/details.png)
+
+## 📋 Visão Geral
+
+Projeto profissional para exibição de filmes populares com:
+- Listagem em grid
+- Detalhes completos dos filmes
+- Sistema de busca integrado
+- Tratamento de erros
+- UI moderna e responsiva
+
+## ✨ Funcionalidades Principais
+
+### 🎞️ Tela de Listagem de Filmes
+- Grid de 2 colunas responsivo
+- Cartões com poster e título
+- Sistema de paginação
+- Indicador de avaliação (0-10)
+- Ano de lançamento
+
+### 🎥 Tela de Detalhes do Filme
+- Poster em alta resolução
+- Sinopse completa
+- Duração do filme
+- Gêneros em tags
+- Data de lançamento formatada
+- Botão de retry em caso de erro
+
+### ⚙️ Funcionalidades Técnicas
+- Tipagem TypeScript rigorosa
+- Cache de requisições
+- Tratamento de offline
+- Variáveis de ambiente seguras
+- Componentes reutilizáveis
+
+## 🚀 Instalação
+
+### Pré-requisitos
+- Node.js 18+
+- Expo CLI (`npm install -g expo-cli`)
+- Chave API TMDB
+
+### Passo a Passo
+```bash
+# Clonar repositório
+git clone https://github.com/seu-usuario/app-filmes.git
+
+# Instalar dependências
+npm install
+
+# Configurar ambiente
+cp .env.example .env
+
+# Iniciar aplicativo
+npx expo start
