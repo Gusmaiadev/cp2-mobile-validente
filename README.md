@@ -6,7 +6,6 @@
 
 Aplicativo de catálogo de filmes integrado à API do TMDB. Desenvolvido com React Native, TypeScript e Expo.
 
-![Movie List Preview](screenshots/list.png) ![Details Preview](screenshots/details.png)
 
 ## 📋 Visão Geral
 
